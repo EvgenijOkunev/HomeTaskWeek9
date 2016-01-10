@@ -1,0 +1,43 @@
+table, tr, td {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    border: none;
+    color: black;
+    font: 100% Arial;
+}
+
+input[type=submit]:hover {
+    color: red;
+}
+
+input[type=submit].dir {
+    font-weight: bolder;
+    color: orange;
+}
+
+.row {
+    background-color: white;
+    padding: 5px 5px 10px;
+    height: 15px;
+}
+
+div.fileContent {
+    padding: 10px;
+    border: solid 1px black;
+    width: 50%;
+}
+
+div.operationLog {
+    padding: 10px;
+    border: solid 1px black;
+    width: 50%;
+}
